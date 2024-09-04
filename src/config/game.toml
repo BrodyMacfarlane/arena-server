@@ -1,0 +1,25 @@
+# Default definitions for all things authoritative game server.
+
+[server]
+port = 6969
+tick_rate = 30 # Tick rate in ticks/sec
+max_connections = 4
+
+[player_definitions]
+
+[player_definitions.name]
+default = "Player"
+
+[player_definitions.sprite]
+default_color = "#ffffff"
+
+[player_definitions.stats]
+base_move_speed = 5
+base_fire_rate = 1
+base_damage = 10
+base_health = 100
+base_armor = 30
+
+[player_definitions.actions]
+base_dash_cooldown = 5
+base_backflip_cooldown = 10
